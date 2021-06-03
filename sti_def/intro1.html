@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js ">
+    <head>
+        <meta charset="utf-8">
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+        <title>Defend the Web</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=1, viewport-fit=cover">
+        <meta name="referrer" content="origin-when-crossorigin">
+        <link rel="manifest" href="/manifest.json">
+
+        
+        <meta property="og:site_name" content="Defend the Web" />
+        
+        <!--[if lt IE 9]>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+        <![endif]-->
+        <!-- <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:400|Lato:300,200|Orbitron&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+        <link rel="stylesheet" href="https://zhr3.co.uk/css/style.css?v=01cc54d" />
+
+        <!-- TODO: remove -->
+        <script src="https://zhr3.co.uk/js/jquery.min.js"></script>
+
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://zhr3.co.uk/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://zhr3.co.uk/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://zhr3.co.uk/icons/favicon-16x16.png">
+        <link rel="mask-icon" href="https://zhr3.co.uk/icons/safari-pinned-tab.svg" color="#2d3b4f">
+        <link rel="shortcut icon" href="https://zhr3.co.uk/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#2d3b4f">
+        <meta name="msapplication-config" content="https://zhr3.co.uk/icons/browserconfig.xml">
+        <meta name="theme-color" content="#2d3b4f">
+
+        
+                    <link rel="stylesheet" href="https://zhr3.co.uk/css/auth.css?v=01cc54d" />
+        
+                
+        
+                    <meta name="site-static" content="https://zhr3.co.uk">
+        
+                    <meta name="site-version" content="01cc54d">
+        
+                    <meta name="sentry" content="https://c0d7211d33e24baca097e6f2e8fc33e2@sentry.io/1810260">
+            </head>
+    <body class="auth">
+        
+    <div class="container">
+        <div class="auth-nav">
+            <a href='/'>&lt; back to site</a>
+        </div>
+        <ul class="auth-tabs">
+            <li class="active" data-target="auth-local-login"><a href='/auth'>Login</a></li>
+            <li class="" data-target="auth-local-signup"><a href='/auth/signup'>Sign up</a></li>
+        </ul>
+        <div class="auth-local">
+            <div class="auth-local-login active">
+                    
+                <form action="/auth" method="post">
+                    <input type="hidden" name="token" value="faa5c332238ec10000709d35a3ba7686800853535ff5027748276805d92b4b22"/>
+                    <div class="input">
+                        <label for="login-username">Username</label>
+                        <input type="text" name="username" id="login-username" placeholder="Username" autocorrect="off" autocapitalize="none" value=""/>
+                    </div>
+                    <div class="input">
+                        <label for="login-password">Password</label>
+                        <input type="password" name="password" id="login-password" placeholder="Password"/>
+                    </div>
+                    <div class="input input--checkbox">
+                        <input type="checkbox" name="remember" id="login-remember"/>
+                        <label for="login-remember">Remember me</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="six columns">
+                            <a href="/auth/forgot" class="button button--wide">Forgotten password?</a>
+                        </div>
+                        <div class="six columns">
+                            <button type="submit" class="button button--main button--wide">Log in</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="auth-local-signup ">
+                    
+                <form action="/auth/signup" method="post">
+                    <input type="hidden" name="token" value="faa5c332238ec10000709d35a3ba7686800853535ff5027748276805d92b4b22"/>
+                    <div class="input">
+                        <label for="signup-username">Username</label>
+                        <input type="text" name="username" id="signup-username" placeholder="Username" autocorrect="off" autocapitalize="none" value="">
+                    </div>
+                    <div class="input">
+                        <label for="signup-email">Email</label>
+                        <input type="email" name="email" id="signup-email" placeholder="Email" autocorrect="off" autocapitalize="none" value="">
+                    </div>
+                    <div class="input">
+                        <label for="signup-password">Password</label>
+                        <input type="password" name="password" id="signup-password" placeholder="Password" autocomplete="new-password">
+                    </div>
+
+                    <p>By providing my information and clicking on the sign up button, I confirm that I have read and agree to this website's <a href='/legal/terms' target='_blank'>terms of use</a> and <a href='/legal/privacy' target='_blank'>privacy policy</a>.</p>
+
+                    <p>All members must abide by the <a href='/help/conduct/code-of-conduct' target='_blank'>Code of Conduct</a>. Failing to do so will result in your account being terminated.</p>
+
+                    <div class="row">
+                        <div class="six columns">
+                            &nbsp;
+                        </div>
+                        <div class="six columns">
+                            <button type="submit" class="button button--main button--wide">Sign up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="auth-social">
+            <a href='/auth/facebook' class='auth-social--facebook'><i class="fab fa-facebook-f" aria-hidden="true"></i> Login with Facebook</a>
+            <a href='/auth/twitter' class="auth-social--twitter"><i class="fab fa-twitter" aria-hidden="true"></i> Login with Twitter</a>
+            <a href='/auth/google' class='auth-social--google'><i class="fab fa-google" aria-hidden="true"></i> Login with Google</a>
+            <a href='/auth/github' class='auth-social--github'><i class="fab fa-github" aria-hidden="true"></i> Login with GitHub</a>
+        </div>
+        <div class="auth-footer">
+            Can't login? <a href='/help/contact'>Contact us</a>
+        </div>
+    </div>
+
+
+        <script src="https://zhr3.co.uk/js/script.min.js?v=01cc54d" crossorigin="anonymous" defer></script>
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js" integrity="sha256-CfcERD4Ov4+lKbWbYqXD6aFM9M51gN4GUEtDhkWABMo=" crossorigin="anonymous" defer></script>
+
+                    <script src="https://zhr3.co.uk/vendor/mailcheck.min.js?v=01cc54d" defer></script>
+                    <script src="https://zhr3.co.uk/js/auth.min.js?v=01cc54d" defer></script>
+        
+                
+            </body>
+</html>
